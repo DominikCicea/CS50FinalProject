@@ -1,0 +1,129 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+<img src="static/bigdonut.png" class="bigdonut">
+<img src="static/bigdonut.png" class="bigdonut2">
+<section class="shop container">
+    <!--Title-->
+
+    <h2 class="section-title">Shop Donuts</h2>
+    <br>
+    <!--Content-->
+    <div class="shop-content">
+        <div class="product-box-container">
+        <!--Box 1-->
+        <div class="product-box">
+            <img src="static/hazelnut.webp" alt="" class="product-img">
+            <h2 class="product-title">Hazelnut</h2>
+            <span class="price">$3</span>
+
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Hazelnut">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+
+        <!--Box 2-->
+        <div class="product-box">
+            <img src="static/vanillaberry.webp" alt="" class ="product-img">
+            <h2 class="product-title">Vanilla Berry</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Vanilla Berry">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 3-->
+
+        <div class="product-box">
+            <img src="static/mms.webp" alt="" class ="product-img">
+            <h2 class="product-title">M&M's Special</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="M&M's Special">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 4-->
+        <div class="product-box">
+            <img src="static/berrycream.webp" alt="" class ="product-img">
+            <h2 class="product-title">Berry Cream</h2>
+            <span class="price">$3</span>
+
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Berry Cream">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+
+        </div>
+        <!--Box 5-->
+        <div class="product-box">
+            <img src="static/brownibomb.webp" alt="" class ="product-img">
+            <h2 class="product-title">Brownie Bomb</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Brownie Bomb">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 6-->
+        <div class="product-box">
+            <img src="static/buttercookie.webp" alt="" class ="product-img">
+            <h2 class="product-title">Butter Cookie</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Butter Cookie">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 7-->
+        <div class="product-box">
+            <img src="static/chococereal.webp" alt="" class ="product-img">
+            <h2 class="product-title">Choco Cereal</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Choco Cereal">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 8-->
+        <div class="product-box">
+            <img src="static/praline.webp" alt="" class ="product-img">
+            <h2 class="product-title">Praline</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Praline">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 9-->
+        <div class="product-box">
+            <img src="static/toffifee.webp" alt="" class ="product-img">
+            <h2 class="product-title">Toffifee</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Toffifee">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+        <!--Box 10-->
+        <div class="product-box">
+            <img src="static/coco.webp" alt="" class ="product-img">
+            <h2 class="product-title">Coco</h2>
+            <span class="price">$3</span>
+            <form method="post" action="/">
+                <input type="hidden" name="donut_name" value="Coco">
+                <button type="submit" class="bx bx-shopping-bag add-cart"></button>
+            </form>
+        </div>
+     </div>
+    </div>
+    <div class="" style="padding: 30px;">
+        <img src="static/banner.png" class="header-img">
+      </div>
+</section>
+{% endblock %}
