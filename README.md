@@ -1,14 +1,18 @@
 # Dominik's Donuts
 #### Video Demo: https://youtu.be/5TKAy1eQR4I
 #### Description: Dominik's Donuts is an online shop where you can order donuts, and pay with your card.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Wanna try it yourself? 1) Download ZIP and Extract 2) Open CMD and navigate to the '/CS50FinalProject' folder 3) Type 'flask run' and open the link.
 
 Common newbie Error: "'flask' is not recognized as an internal or external command,
 operable program or batch file."
 
 Solution: run 'python -m flask run' in the CMD.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 I made this beautiful header image using Canva, and spent some time googling how to make images react when you hover over them using your mouse. The website has a main page, a contact page, and a shopping cart. Everything in the cart is dynamic so when you remove an item, the numbers on the page change. I did that using the Jinja for loops and placeholders. The contact page is a simple form where you can type your name, email, and your message. My main folder contains app.py where I configured the application, project.db where I store information about each donut, and requirements.txt to import flask, requests, etc. My templates folder contains 4 files: layout.html, index.html, contact.html, and cart.html.
 
 layout.html: The layout contains the elements that never change regardless of which page we are on: Header image, Navigation bar, favicon and footer.
