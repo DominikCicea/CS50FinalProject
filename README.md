@@ -1,6 +1,6 @@
 # Dominik's Donuts
 #### Video Demo: https://youtu.be/5TKAy1eQR4I
-#### Description: Dominik's Donuts is an online shop where you can order donuts, and pay with your card.
+#### Dominik's Donuts is an online shop where you can order donuts, and pay with your card.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
