@@ -4,9 +4,9 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Wanna try it yourself? 1) Download ZIP and Extract 2) Open CMD and navigate to the '/CS50FinalProject' folder 3) Type 'flask run' and open the link.
+Wanna try it yourself? 1) Download ZIP and Extract 2) Open CMD and navigate to the 'CS50FinalProject' folder 3) Type 'flask run' and open the link.
 
-Common newbie Error: "'flask' is not recognized as an internal or external command,
+Common Error: "'flask' is not recognized as an internal or external command,
 operable program or batch file."
 
 Solution: run 'python -m flask run' in the CMD.
